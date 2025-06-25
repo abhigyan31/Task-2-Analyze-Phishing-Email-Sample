@@ -3,13 +3,13 @@ Phishing Email Analysis Report
 
 📄 Task: Analyze a Phishing Email Sample  
 🖥️ Environment: Kali Linux in VMware  
-🧰 Tools Used: Text viewer (`less`), manual inspection
+🧰 Tools Used: Text viewer ('less'), manual inspection
 
 -----------------------------------------------------
 🔹 Step 1: Obtained a Phishing Email Sample
 -----------------------------------------------------
-- Downloaded a sample phishing email dataset (`fraudulent_emails.txt`) from Kaggle.
-- Extracted the `.txt` file in Kali Linux.
+- Downloaded a sample phishing email dataset ('fraudulent_emails.txt') from Kaggle.
+- Extracted the '.txt' file in Kali Linux.
 
 -----------------------------------------------------
 🔹 Step 2: Examined Sender’s Email Address
@@ -63,7 +63,7 @@ Examples:
 
 | Indicator               | Observation                                                    |
 |-------------------------|----------------------------------------------------------------|
-| Suspicious Email Address| Free domains like `lycos.com`, `mailcity.com`, `spinfinder.com`|
+| Suspicious Email Address| Free domains like 'lycos.com', 'mailcity.com', 'spinfinder.com'|
 | Header Mismatches       | Same Return-Path and Reply-To fields                           |
 | Urgent Language         | “Urgent Attention”, “Assistance Needed”, etc.                 |
 | Grammar Errors          | Multiple typos and poorly written sentences                    |
